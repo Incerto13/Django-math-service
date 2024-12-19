@@ -38,7 +38,7 @@ brew services start redis
 ```
 
 
-## Common Commands Summary
+## Commands Summary
 
 | Task                         | Command                                       |
 |------------------------------|-----------------------------------------------|
