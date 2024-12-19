@@ -1,0 +1,54 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment directories
+venv/
+env/
+
+# Django specific files
+*.log
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+
+# Media and static files
+/media/
+staticfiles/
+
+# Testing and Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+coverage.xml
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Dependency directories
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Node modules (if using frontend frameworks like React or Vue in Django)
+node_modules/
+
+# Docker
+*.env
+.env.*
+docker-compose.override.yml
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
