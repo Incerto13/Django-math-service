@@ -51,3 +51,17 @@ brew services start redis
 | Run integration tests        | `python manage.py test`                      |
 | Purge Celery queue           | `celery -A math_service_project purge`       |
 | Check Celery worker status   | `celery -A math_service_project status`      |
+
+
+## URLS
+- Django app running on: [http://localhost:8000/](http://localhost:8000/)
+- Django admin running on: [http://localhost:8000/admin](http://localhost:8000/admin)
+- Swagger docs running on: [http://localhost:8000/swagger/](http://localhost:8000/swagger/)
+- Flower UI for Celery running on: [http://localhost:5555/](http://localhost:5555/)
+
+
+## Example Requests
+```bash
+GET http://localhost:8000/api/difference/?number=10
+GET http://localhost:8000/api/triplet/?a=3&b=4&c=5
+```
