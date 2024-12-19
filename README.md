@@ -46,9 +46,8 @@ brew services start redis
 | Apply migrations             | `python manage.py migrate`                   |
 | Create superuser             | `python manage.py createsuperuser`           |
 | Run server                   | `python manage.py runserver`                 |
-| Run integration tests        | `python manage.py test`                      |
 | Start Celery worker          | `celery -A math_service_project worker --loglevel=info` |
-| Start Celery Beat            | `celery -A math_service_project beat --loglevel=info` |
 | Start Flower                 | `celery -A math_service_project flower`       |
+| Run integration tests        | `python manage.py test`                      |
 | Purge Celery queue           | `celery -A math_service_project purge`       |
 | Check Celery worker status   | `celery -A math_service_project status`      |
